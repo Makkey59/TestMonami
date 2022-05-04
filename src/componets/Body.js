@@ -8,9 +8,7 @@ const Body = ({ active }) => {
     <>
       <div>{langDescription[active].text}</div>
       <div>{langDescription[active].desc}</div>
-      <div>
-        <div>{langDescription[active].price}</div>
-      </div>
+      <div>{langDescription[active].price}</div>
     </>
   );
 };
